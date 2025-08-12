@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Prisma generated client
+server/node_modules/@prisma/client/
+server/prisma/migrations/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code workspace settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Optional: coverage reports (if you use testing tools)
+coverage/
+
+# Optional: lock files if you want to ignore (usually not recommended)
+# package-lock.json
+# yarn.lock
