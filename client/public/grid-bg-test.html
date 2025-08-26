@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="src/styles.css">
+<title>Glowing Grid Background</title>
+<style>
+  body {
+    margin: 0;
+    height: 100px;
+    background: #010708;
+    justify-content: center;
+  }
+
+  .grid {
+    position: fixed; 
+    bottom: -200px; 
+    left: 0;
+    width: 100%;
+    height: 1000px; /* fill bottom-up space */
+    background-color: #010708;
+    background-image:
+      linear-gradient(to right, #8DE2EF 1px, transparent 1px),
+      linear-gradient(to top, #8DE2EF 1px, transparent 1px);
+    background-size: 50px 50px;
+    transform: perspective(600px) rotateX(80deg);
+
+    /* ✨ Glow effect */
+    filter: drop-shadow(0 0 6px rgba(0, 255, 242, 0.8))
+            drop-shadow(0 0 12px rgb(0, 255, 255))
+            drop-shadow(0 0 18px rgba(3, 231, 212, 0.4));
+
+    /* Fade out towards top */
+    mask-image: linear-gradient(to top, black 30%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to top, black 40%, transparent 45%);
+  }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+    <div>
+        <h1>Welcome to CultureFit!</h1>
+        <p>Where fitness meets culture.</p>
+        <p>Explore our community and find your fit.</p>
+        <p>Join us today!</p>
+    </div>
+
+</body>
+</html>

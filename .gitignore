@@ -34,3 +34,5 @@ coverage/
 # Optional: lock files if you want to ignore (usually not recommended)
 # package-lock.json
 # yarn.lock
+
+/generated/prisma
