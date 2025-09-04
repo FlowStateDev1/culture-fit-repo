@@ -22,6 +22,32 @@ p {
     ;
 
 }
+.POC-page { 
+    padding: 20px;
+    margin-top: 80px; /* Adjust based on header height */
+    margin-bottom: 40px
+   ; /* Adjust based on header and footer height */
+}
+.blog-page { 
+    padding: 20px;
+    margin-top: 80px; /* Adjust based on header height */
+    margin-bottom: 40px
+   ; /* Adjust based on header and footer height */
+}
+
+.about-page { 
+    padding: 20px;
+    margin-top: 80px; /* Adjust based on header height */
+    margin-bottom: 40px
+   ; /* Adjust based on header and footer height */
+}
+
+.contact-page { 
+    padding: 20px;
+    margin-top: 80px; /* Adjust based on header height */
+    margin-bottom: 40px
+   ; /* Adjust based on header and footer height */
+}
 
 .navbar {
     background-color: #294145;
